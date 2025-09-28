@@ -1,20 +1,5 @@
-# Core Data Science Libraries
-pandas>=2.2.3
-numpy>=3.1
-scikit-learn>=1.6.1
-
-# Visualization
-matplotlib>=3.10.3
-
-# Model Persistence
-joblib>=1.5.0
-
-# Web Application
-streamlit>=1.50.0
-
-# Jupyter Notebook (optional - for development)
-jupyter>=1.1.1
-ipykernel>=6.29.5
-
-# Additional utilities that might be helpful
-seaborn>=0.13.2
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
