@@ -1,18 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import os
-
-st.write("Current working directory:", os.getcwd())
-st.write("Files available:", os.listdir("."))
-
-import joblib
-
-try:
-    model = joblib.load("salary_prediction_model.pkl")
-    st.success("Model loaded successfully!")
-except Exception as e:
-    st.error(f"Model load failed: {e}")
        
 # Load model
 model = joblib.load("salary_prediction_model.pkl")
@@ -124,3 +112,4 @@ if st.button("Predict Salary"):
     salary = model.predict(input_data)[0]
 
     st.success(f"Predicted Salary: ${salary:,.2f}")
+
