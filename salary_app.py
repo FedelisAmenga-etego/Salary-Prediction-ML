@@ -176,8 +176,9 @@ st.markdown(
     <hr>
     <div style="text-align:center; color:grey; font-size:14px;">
     Built by 
-        <a href="https://github.com/yourusername/salary-prediction-ml" target="_blank">Amenga-etego Fedelis</a>
+        <a href="https://github.com/FedelisAmenga-etego" target="_blank">Amenga-etego Fedelis</a>
     </div>
     """,
     unsafe_allow_html=True
 )
+
