@@ -240,4 +240,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-**Built with** ❤️ **using Python, Scikit-learn, and Machine Learning best practices**
+**Built** **using Python, Scikit-learn, and Machine Learning best practices**
